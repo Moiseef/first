@@ -1,0 +1,154 @@
+img.poiskcart.lup {
+    width: 48%;
+    margin-top: 0.1%;
+}
+/* erer*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 0px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+    top: 155%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    transform: rotate(180deg);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/* erer*/
+
+.wrapesearch{
+    position: relative;
+}
+.apwrap {
+    position: absolute;
+    margin-left: 92.5%;
+    margin-top: 1.5%;
+     display: inline-flex;
+}
+
+
+.apwrap.imgsearcg {
+    display: inline-flex;
+    margin-left: 84.5%;
+}
+.imgsearcg img {
+    margin-right: 10px;
+}
+
+
+img.poiskcart {
+    width: 24px;
+        margin-top: -13%;
+}
+
+html, body {
+    height: 95.5%;
+    font-family: sans-serif;
+}
+#links {
+    text-align: right;
+    margin: 20px;
+}
+a {
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.829);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#form1 {
+    text-align: center;
+    margin:auto;
+    margin-top: 0px;
+}
+#form {
+    height: 100%;
+    display: flex;
+}
+#img-txt {
+    width: 485px;
+    padding-right: 50px;
+    background-image: url(images/grey-magnifying.png);
+    background-position: 2.5%;
+    background-size: 3.5%;
+    background-repeat: no-repeat;
+}
+#search-txt {
+    width: 485px;
+    padding-right: 50px;
+    background: url(images/grey-magnifying.png);
+    background-position: 2.5%;
+    background-size: 3.5%;
+    background-repeat: no-repeat;
+}
+.txt {
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    outline: none;
+    font-size: 16px;
+    padding-left: 45px;
+}
+.txt:hover {
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.507);
+    border-color: transparent;
+}
+#search-txt::placeholder {
+    color: rgb(85, 85, 85);
+}
+.btn {
+    width: 140px;
+    height: 38px;
+    margin: 4px;
+    margin-top: 30px;
+    background-color: rgb(243, 243, 243);
+    color: grey;
+    border: 1px solid rgba(128, 128, 128, 0);
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+.btn:hover {
+    background-color: rgba(243, 243, 243, 0.788);
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    box-shadow: 0px 1px rgba(172, 172, 172, 0.281);
+}
+#logo {
+    width: 270px;
+    margin: 20px;
+    margin-top: 100px;
+}
+text {
+    position: absolute;
+    margin-top: 174px;
+    margin-left: -77px;
+    color: rgb(96, 96, 255);
+}
